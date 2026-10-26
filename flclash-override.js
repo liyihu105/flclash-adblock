@@ -12,7 +12,7 @@
 function main(config) {
   // GitHub 代理镜像（始终指向最新 Release）。镜像失效就换成下面任一：
   //   https://ghfast.top/https://github.com/...   https://ghproxy.net/https://github.com/...
-  const BASE = "https://gh-proxy.com/https://github.com/shihejun1/flclash-adblock/releases/download/ruleset";
+  const BASE = "https://gh-proxy.com/https://github.com/liyihu/flclash-adblock/releases/download/ruleset";
 
   // 1) 规则集提供者。改用 text 格式（所有 mihomo 版本都支持，排除 .mrs 兼容问题）；
   //    path 换新文件名，强制这次重新下载，不吃旧缓存。
